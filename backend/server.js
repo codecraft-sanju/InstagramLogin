@@ -66,6 +66,10 @@ app.get("/admin/users", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+  res.send("hello instagram")
+})
+
 
 
 app.listen(5000, () => {
